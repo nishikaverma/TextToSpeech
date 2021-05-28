@@ -1,0 +1,27 @@
+Algo 
+
+
+
+1) Extract desirable text  form the pdf (PDF to TEXT Convertor)
+
+
+- google cloud bucket will store the pdf
+
+-Python code to to call Vision APi
+
+-vision APt - to extra text form pdf whic needs to be converted into words
+
+
+2)Skipping the garbage text(pg no.) form the total text using ML
+
+-Auto ML tables - building a custom ML model for
+			-identigiges the garbage text
+
+3) Converting the extracted text to audio
+
+4) Creating an mp3 file of the obtained audio
+
+
+
+Upload pDF ------>   Creating Cloud Storage Bucket--------> Vision API ------> Cloud Functions --------> Auto ML tables(include most common font size) --------------> text-to-speech --------> .mp3 file
+
